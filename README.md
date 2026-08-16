@@ -32,7 +32,7 @@ Unterstützte Sprachen:
 - KI-generierte Horoskope – poetische, präzise Texte per KI
 - Verschiedene Horoskope auch kompinierbar
 - Planetenrad-Visualisierung – interaktives Rad im Frontend
-- 💝 Spenden-Integration – einfache Unterstützung über Ko-fi
+- Spenden-Integration – einfache Unterstützung über Ko-fi
 
 
 4. Technologie
