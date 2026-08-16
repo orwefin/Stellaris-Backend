@@ -48,8 +48,29 @@ Unterstützte Sprachen:
 
 5. Installation
 
-1. Repository klonen
+  1. Repository klonen
 
 bash:
 git clone https://github.com/orwefin/stellaris-backend.git
 cd stellaris-backend
+
+
+6. Anpassung der main.py
+
+
+import os
+from openai import OpenAI
+
+# OpenAI-kompatible API konfigurieren
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
+
+if not OPENAI_API_KEY:
+    raise ValueError("❌ OPENAI_API_KEY fehlt in .env")
+
+client = OpenAI(
+    api_key=OPENAI_API_KEY,
+    base_url=OPENAI_BASE_URL
+)
+
+LLM_MODEL = os.getenv("LLM_MODEL", "gpt-4o-mini")
