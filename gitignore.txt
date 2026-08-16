@@ -1,0 +1,19 @@
+# Sensible Daten – NIEMALS hochladen!
+.env
+.env.local
+
+# Virtuelle Umgebung
+venv/
+env/
+
+# Python-Cache
+__pycache__/
+*.py[cod]
+
+# Ephemeriden (große Dateien, öffentlich verfügbar)
+ephe/
+*.se1
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
