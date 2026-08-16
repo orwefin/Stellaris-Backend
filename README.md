@@ -51,7 +51,7 @@ Unterstützte Sprachen:
   1. Repository klonen
 
 bash:
-git clone https://github.com/orwefin/stellaris-backend.git
+git clone https://github.com/orwefin/Stellaris-Backend.git
 cd stellaris-backend
 
 
